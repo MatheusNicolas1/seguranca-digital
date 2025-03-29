@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00aaff !important;
+}
+
+.swiper-pagination-bullet {
+  background: #00aaff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+.highlight {
+  color: #FFD700;
+}
+
+.countdown-block {
+  background-color: #FF0000;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.faq-item {
+  background: #2a2a2a;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-question {
+  color: #00aaff;
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  padding: 0 16px 16px;
+}
+
+.table-cell {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+.check {
+  color: #00FF00;
+}
+
+.cross {
+  color: #FF4444;
+}
